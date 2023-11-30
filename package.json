@@ -3,28 +3,28 @@
   "version": "1.0.0",
   "description": "chrome-extension-typescript-starter",
   "main": "index.js",
+  "packageManager": "pnpm>7",
   "scripts": {
     "watch": "webpack --config webpack/webpack.dev.js --watch",
     "build": "webpack --config webpack/webpack.prod.js",
+    "run": "web-ext run",
+    "lint": "web-ext lint",
     "clean": "rimraf dist",
     "test": "npx jest",
     "style": "prettier --write \"src/**/*.{ts,tsx}\""
   },
-  "author": "",
+  "author": "Robert Elsner",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "web-ext": "^7.8.0",  
     "@types/chrome": "0.0.158",
     "@types/jest": "^29.5.0",
-    "@types/react": "^18.0.29",
-    "@types/react-dom": "^18.0.11",
     "copy-webpack-plugin": "^9.0.1",
     "glob": "^7.1.6",
     "jest": "^29.5.0",

@@ -1,51 +1,27 @@
-# Chrome Extension TypeScript Starter
+# ThePrimeHighlighter
 
-![build](https://github.com/chibat/chrome-extension-typescript-starter/workflows/build/badge.svg)
 
-Chrome Extension, TypeScript and Visual Studio Code
+If you're a boss, you know how to highlight.
 
 ## Prerequisites
 
 * [node + npm](https://nodejs.org/) (Current Version)
 
-## Option
-
-* [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Includes the following
 
-* TypeScript
-* Webpack
-* React
-* Jest
-* Example Code
-    * Chrome Storage
-    * Options Version 2
-    * content script
-    * count up badge number
-    * background
-
-## Project Structure
-
-* src/typescript: TypeScript source files
-* src/assets: static files
-* dist: Chrome Extension directory
-* dist/js: Generated JavaScript files
+Destruction of my career for the memes.
 
 ## Setup
 
 ```
-npm install
+pnpm install
 ```
-
-## Import as Visual Studio Code project
-
-...
 
 ## Build
 
 ```
-npm run build
+pnpm run build
 ```
 
 ## Build in watch mode
@@ -53,14 +29,12 @@ npm run build
 ### terminal
 
 ```
-npm run watch
+pnpm run watch
 ```
 
 ### Visual Studio Code
 
-Run watch mode.
-
-type `Ctrl + Shift + B`
+Install neovim.
 
 ## Load extension to chrome
 
